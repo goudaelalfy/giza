@@ -1,0 +1,49 @@
+.cls_div_menu {
+background:url(images/gs_ws_9_home-final_05.jpg) center repeat-x #f9f9f9;
+height: 47px;
+}
+.cls_div_menu a{
+text-decoration:none;
+background:url(images/menubreack.png) 100% 90% no-repeat;
+height: 47px;
+width:40px;
+text-align: left;
+
+}
+.cls_div_menu ul{
+}
+.cls_div_menu ul li{
+padding:0px;
+background:url(images/menubreack.png) 100% 90% no-repeat;
+}
+.cls_div_menu ul a{
+width:190px;
+vertical-align:bottom;
+padding:0px;
+margin:0px;
+padding-top:17px;
+height:31px;
+}
+.cls_div_menu ul a:HOVER{
+color: #ffffff;
+}
+.cls_div_menu ul li ul{
+width:190px; text-align:left; margin-left:0px;
+}
+.cls_div_menu ul li ul li{
+background:url('images/gs_ws_9_submenu_level2.png') #79cefa top repeat-x;
+width: 100%;
+}
+.cls_div_menu ul li ul li a{
+height:25px;
+}
+.cls_div_menu ul li ul li a:HOVER{
+color: #00355f;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+.container
+{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	height:126px;
+	vertical-align:top;
+	direction:rtl;
+}
+
+ul.tabs
+{
+	margin:0px;
+	padding:0px;
+	float:right;
+	list-style:none;
+	height:42px;
+	width: 300px;
+	border: 0px;
+	width:100%;
+}
+
+ul.tabs li
+{
+	float:right;
+	margin:0px;
+	padding:0px;
+	height:42px;
+	line-height:42px;
+	width: 260px;
+	border:0px solid #999;
+	overflow:hidden;
+	position:relative;
+	color:#ffffff;
+	
+	
+}
+
+ul.tabs li a
+{
+	text-decoration:none;
+	color:#ffffff;
+	display:block;
+	font-size:1.2em;
+	border:0px solid #fff;
+	padding:0px;
+	outline:none;
+	margin:0px;
+	text-align:center;
+	background: url('../images/tab.png') top right no-repeat;
+	width:260px;
+}
+
+ul.tabs li a:hover
+{
+	color:#cbebfb;
+}
+
+html ul.tabs li.active,html ul.tabs li.active a,html ul.tabs li.active a:hover
+{
+	background: url('../images/tab_active.png') top right no-repeat;
+	width: 260px;
+	color:#cbebfb;
+	border-bottom:0px solid #fff;
+	margin:0px;
+}
+
+.tab_container
+{
+	border:0px;
+	clear:both;
+	float:left;
+	width:100%;
+	background: url('../images/tab_content_bg.png') bottom right repeat-x;
+	vertical-align:top;
+	height:126px;
+	padding:0px;
+}
+
+.tab_content
+{
+	vertical-align:top;
+	color:#ffffff;
+	font-size:12px;
+	line-height:15px;
+	font-family:Tahoma;
+	padding:0px;
+	padding-right:20px;
+	padding-left:20px;
+	height: 96px;
+	text-align:right;
+}

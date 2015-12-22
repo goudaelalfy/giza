@@ -1,0 +1,67 @@
+@charset "iso-8859-1";
+/* CSS Document */
+.tab_button
+{
+	width:160px;
+	height:33px;
+	vertical-align:middle;
+	border-bottom:0px solid #e4e4e4;
+	background:url('../images/tab-active_wide.png') bottom left no-repeat;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	color:#00a4e4;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.subtab_button
+{
+	height:33px;
+	vertical-align:middle;
+	text-align:center;
+	padding:0px;
+	padding-right:10px;
+	margin:0px;
+	color:#00355f;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.subtabindustry_button
+{
+	height:33px;
+	vertical-align:middle;
+	text-align:center;
+	padding:0px;
+	padding-right:10px;
+	margin:0px;
+	color:#00355f;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.subtabsolution_button
+{
+	height:33px;
+	vertical-align:middle;
+	text-align:center;
+	padding:0px;
+	padding-right:10px;
+	margin:0px;
+	color:#00355f;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.bullet
+{
+	width:15px;
+	height:25px;
+	vertical-align:top;
+	border-bottom:0px;
+	background:url('../images/bullet.png') center left no-repeat;
+	text-align:top;
+	padding:0px;
+	margin:0px;
+}

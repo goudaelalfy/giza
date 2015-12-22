@@ -1,0 +1,298 @@
+.jcarousel-skin-home .jcarousel-container {
+    border: 0px
+}
+
+.jcarousel-skin-home .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-home .jcarousel-container-horizontal {
+    width: 940px;
+}
+
+.jcarousel-skin-home .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-home .jcarousel-clip-horizontal {
+    width:  888px;
+    height: 324px;
+}
+
+.jcarousel-skin-home .jcarousel-item {
+    width: 293px;
+    height: 324px;
+}
+
+.jcarousel-skin-home .jcarousel-item-horizontal {
+	margin: 0;
+}
+
+.jcarousel-skin-home .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin: 0;
+}
+
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-home .jcarousel-next-horizontal {
+    position: absolute;
+    top: 162px;
+    right: 0px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(gs_ws_9_home-final_right-arrow.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-home .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 0px;
+    background-image: url(gs_ws_9_home-final_left-arrow.png);
+}
+
+
+
+
+.jcarousel-skin-home .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 162px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(gs_ws_9_home-final_left-arrow.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-home .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    right: 0px;
+    background-image: url(gs_ws_9_home-final_right-arrow.png);
+}
+
+
+.jcarousel-prev-disabled, .jcarousel-next-disabled
+{
+    visibility:hidden;
+}
+
+
+
+
+.jcarousel-skin-solutions .jcarousel-container {
+    border: 0px;
+}
+
+.jcarousel-skin-solutions .jcarousel-direction-rtl {
+	direction: rtl; 
+}
+
+.jcarousel-skin-solutions .jcarousel-container-horizontal {
+    width: 1025px;
+}
+
+.jcarousel-skin-solutions .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-solutions .jcarousel-clip-horizontal {
+    width:  990px;
+    height: 350px;
+}
+
+.jcarousel-skin-solutions .jcarousel-item {
+    width: 330px;
+    height: 350px;
+}
+
+.jcarousel-skin-solutions .jcarousel-item-horizontal {
+	margin: 0;
+}
+
+.jcarousel-skin-solutions .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin: 0;
+}
+
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-solutions .jcarousel-next-horizontal {
+    position: absolute;
+    top: 162px;
+    right: 0px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(gs_ws_9_home-final_right-arrow.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-solutions .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 10px;
+    background-image: url(gs_ws_9_home-final_left-arrow.png);
+}
+
+
+
+
+.jcarousel-skin-solutions .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 162px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(gs_ws_9_home-final_left-arrow.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-solutions .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    right: 10px;
+    background-image: url(gs_ws_9_home-final_right-arrow.png);
+}
+
+
+
+
+
+.jcarousel-skin-careers .jcarousel-container {
+    border: 0px;
+}
+
+.jcarousel-skin-careers .jcarousel-direction-rtl {
+	direction: rtl; 
+}
+
+.jcarousel-skin-careers .jcarousel-container-horizontal {
+    width: 1050px;
+}
+
+.jcarousel-skin-careers .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-careers .jcarousel-clip-horizontal {
+    width:  1050px;
+    height: 240px;
+}
+
+.jcarousel-skin-careers .jcarousel-item {
+    width: 260px;
+    height: 240px;
+}
+
+.jcarousel-skin-careers .jcarousel-item-horizontal {
+	margin: 0;
+}
+
+.jcarousel-skin-careers .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin: 0;
+}
+
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-careers .jcarousel-next-horizontal {
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(gs_ws_9_home-final_right-arrow.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-careers .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 10px;
+    background-image: url(gs_ws_9_home-final_left-arrow.png);
+}
+
+
+
+
+.jcarousel-skin-careers .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(gs_ws_9_home-final_left-arrow.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-careers .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    right: 10px;
+    background-image: url(gs_ws_9_home-final_right-arrow.png);
+}
+
+
+/*By Gouda*/
+.jcarousel-skin-infomedia .jcarousel-container {
+    border: 0px;
+}
+
+.jcarousel-skin-infomedia .jcarousel-direction-rtl {
+	direction: rtl; 
+}
+
+.jcarousel-skin-infomedia .jcarousel-container-horizontal {
+    width: 750px;
+}
+
+.jcarousel-skin-infomedia .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-infomedia .jcarousel-clip-horizontal {
+    width:  750px;
+    height: auto;
+}
+
+.jcarousel-skin-infomedia .jcarousel-item {
+    width: 250px;
+    height: auto;
+}
+
+.jcarousel-skin-infomedia .jcarousel-item-horizontal {
+	margin: 0;
+}
+
+.jcarousel-skin-infomedia .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin: 0;
+}
+
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-infomedia .jcarousel-next-horizontal {
+    position: absolute;
+    top: 120px;
+    right: -40px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(gs_ws_9_home-final_right-arrow.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-infomedia .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 10px;
+    background-image: url(gs_ws_9_home-final_left-arrow.png);
+}
+
+
+
+
+.jcarousel-skin-infomedia .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 120px;
+    left: -10px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(gs_ws_9_home-final_left-arrow.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-infomedia .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    right: 10px;
+    background-image: url(gs_ws_9_home-final_right-arrow.png);
+}

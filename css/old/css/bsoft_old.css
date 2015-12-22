@@ -1,0 +1,384 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: normal;
+
+  src: local('Arial'), url('../fonts/Arial.ttf') format('truetype');
+}
+
+.body
+{
+	font-family: Arial;
+	font-size:12px;
+	direction:ltr;
+	background:#f3f3f3;
+	color:#7b7b7b;
+	margin:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	text-align:left;
+	font-weight:normal;
+	letter-spacing:1pt;
+}
+
+.mainmenulink
+{
+	font-family:Arial;
+	color: #00a4e4;
+	font-size:16px;
+	text-decoration:none;
+	
+}
+
+.mainmenulink:hover
+{
+	color: #00a4e4;
+	background:url('../images/bsoft_menu_up.png') top left no-repeat;
+	
+}
+
+.selected_main_item
+{
+	color: #00a4e4;
+	font-size:13px;
+	text-decoration:none;
+	text-transform:uppercase;
+	background:url('../images/giza-systems-menuitembg.png') top left no-repeat;
+	background-size:100%;
+}
+
+.over_main_item
+{
+	color: #00a4e4;
+	font-size:13px;
+	text-decoration:none;
+	text-transform:uppercase;
+	background:url('../images/giza-systems-menuitembg.png') top left no-repeat;
+	background-size:100%;
+}
+.menulink
+{
+	color: #ffffff;
+	font-size:13px;
+	text-decoration:none;
+	text-transform:none;
+}
+.menulink:hover
+{
+	color: #00a4e4;
+	font-size:13px;
+	text-decoration:underline;
+}
+.selectedmenulink
+{
+	color: #00a4e4;
+	font-size:13px;
+	font-weight:normal;
+	text-decoration:none;
+	text-transform:none;
+}
+
+
+.footermenulink
+{
+	color: #c4c4c4;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:normal;
+}
+.footermenulink:hover
+{
+	color: #0c8fc2;
+}
+.selectedfootermenulink
+{
+	color: #0c8fc2;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.footermainmenulink
+{
+	color: #0c8fc2;
+	font-size:13px;
+	text-decoration:none;
+	font-weight:normal;
+}
+.footermainmenulink:hover
+{
+	color: #0c8fc2;
+	font-size:13px;
+	text-decoration:none;
+	font-weight:normal;
+}
+.selectedfootermainmenulink
+{
+	color: #0c8fc2;
+	font-size:13px;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.product_box
+{
+	font-family:Arial;
+	font-size:20px;
+	color: #ffffff;
+	font-weight:normal;
+	text-transform:capitalize;
+	background:url('../images/bsoft_product_bg_1.png') top left no-repeat;
+	width:188px;
+	height:146px;
+	padding:5px;
+	padding-top:15px;
+	padding-left:0px;
+	text-align:center;
+	cursor:pointer;
+	cursor:hand;
+	
+}
+
+.product_box:hover
+{
+	background:url('../images/bsoft_product_bg_2.png') top left no-repeat;
+}
+
+.small-title
+{
+	color:#373737;
+	font-size:18px;
+	line-height:20px;
+	font-weight:normal;
+}
+
+.big-title
+{
+	color:#00a4e4;
+	font-size:18px;
+	line-height:31px;
+	font-weight:normal;
+}
+
+.big-title-2
+{
+	color:#00355f;
+	font-size:14px;
+	font-weight:normal;
+}
+
+.textbox
+{
+	font-family: Arial;
+	color:#333333;
+	font-size:11px;
+	border-top:#71724C solid 1px;
+	border-collapse:collapse;
+	background-color:#FFFFFF;	
+	height:24px;
+	line-height:0.95;
+}
+
+.button
+{
+	font-family:Arial;
+	color:#ffffff;
+	font-size:11px;
+	font-weight:bold;
+	border-top:#FFFFFF solid 1px;
+	border-collapse:collapse;
+	background-color:#71724C;
+	height:24px;
+	cursor:pointer;
+	cursor:hand;
+	line-height:0.95;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+
+.table
+{
+	color:#333333;
+	vertical-align:top;
+	align:center;
+	border-collapse:collapse;
+	font-family: Arial;
+	font-size:11px;
+	padding:0px;
+	line-height:0.95;
+}
+
+.heading1
+{
+	font: Arial;
+	font-size:24px;
+	color:#444444;
+	
+}
+
+.heading2
+{
+	font: Arial;
+	font-size:16px;
+	color:#444444;
+	font-weight:bold;
+}
+
+
+.link
+{
+	font-family:Arial;
+	color: #00a4e4;
+	font-size:12px;
+	text-decoration:none;
+}
+.link:hover
+{
+	font-family:Arial;
+	color: #00a4e4;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.arrow_link
+{
+	text-decoration:none; 
+	font-size:13px;
+    
+	display:inline-block;
+    padding-left:12px;
+    line-height:18px;
+    background:transparent url(../images/giza_systems_contentpage_18.png) center left no-repeat;
+    color:#585858;
+}
+.arrow_link:hover
+{
+	background:transparent url(../images/giza_systems_contentpage_12.png) center left no-repeat;
+    color:#00355f;
+}
+
+.arrow_link2
+{
+	text-decoration:none; 
+	font-size:13px;
+    
+	display:inline-block;
+    padding-left:12px;
+	padding-bottom:8px;
+    line-height:18px;
+    background:transparent url(../images/bullet.png) top left no-repeat;
+    color:#585858;
+}
+.arrow_link2:hover
+{
+	background:transparent url(../images/bullet.png) top left no-repeat;
+    color:#00a4e4;
+}
+
+
+#sitemap ul li
+{
+	padding-bottom:10px;
+}
+
+#sitemap ul li a
+{
+	text-decoration:none;
+	font-weight:bold;
+	color:#666666;
+	
+}
+#sitemap ul li a:hover
+{
+	color: #ff8b01;
+}
+
+.footer_text
+{
+	color:#b8b8b8;
+	font-size:12px;
+	text-align:left;
+}
+
+.footer_link
+{
+	color:#b8b8b8;
+	font-size:12px;
+	text-align:left;
+}
+
+.footer_link:hover
+{
+	color:#8c9760;
+}
+.form
+{
+
+}
+
+.headerCell
+{
+	background-color:#DDDDDD;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	height:25;
+	line-height:0.95;
+}
+
+.control
+{
+font-family:Arial;
+color: #333333;
+font-size:11px;
+border:1 solid #6666CC;
+background-color:#FFFFFF;	
+}
+
+.simpletab
+{
+	text-align:center;
+	background-color:#EEEEEE;
+	padding:10px;
+	border:#999999 1px solid;
+	color:#999999;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.simpletab_active
+{
+	text-align:center;
+	background-color:#FFFFFF;
+	padding:10px;
+	border-top:#999999 1px solid;
+	border-right:#999999 1px solid;
+	border-left:#999999 1px solid;
+}
+
+.simpletab_separator
+{
+	border-bottom:#999999 1px solid;
+	width:10px;
+}
+
+#columns {-moz-column-count:3; -moz-column-gap:20px; -webkit-column-count:3; -webkit-column-gap:20px; column-count:3; column-gap:20px; } 
+
+#columns ul li {
+   width: 28%;
+   margin: .5em 2%;
+   float:left;
+}
+
+#columns ul li ul li{
+   width: 28%;
+   margin: .5em 2%;
+   float:left;
+}
+

@@ -1,0 +1,177 @@
+/*
+* The BSoft DHTML Calendar
+* CSS for the calendar pages
+*
+* Copyright (c) 2004 by BSoft, Inc.
+* http://www.bsoft.com
+* 1700 MLK Way, Berkeley, California,
+* 94709, U.S.A.
+* All rights reserved.
+*
+*
+*/
+
+.bsCalHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 150%;
+	font-weight:bold;
+	color: #000000;
+	padding-top: 1.0ex;
+	padding-bottom: 1.0ex;
+}
+
+.bsCalSubHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight:bold;
+	color: #393939;
+	padding-top: 1.0ex;
+	padding-bottom: 1.0ex;
+}
+
+.bsCalPoint {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 16px;
+	padding-top: 0.6ex;
+	padding-bottom: 0.6ex;
+	/*TODO check this out later
+	BACKGROUND: url(../images/box_blue.gif) no-repeat left top; left: 0px; TOP: 0px; 
+	*/
+}
+
+.bsCalPointBullet {
+	vertical-align:top;
+	padding-right:1ex; 
+}
+.bsCalPrice, .bsCalPriceTopHeader, .bsCalPriceSideHeader{
+	border: 1px solid #FFFFFF;
+	font-size: 90%;
+	border-collapse:collapse;
+	text-align:left;
+	vertical-align:top;
+}
+
+.bsCalPrice{
+  background-color: #EFEBEF;
+}
+
+.bsCalPriceTopHeader{
+	font-weight:bold;
+  background-color: #EFEBEF;
+}
+
+.bsCalPriceSideHeader{
+	font-weight:bold;
+  background-color: #BDD4F3;
+}
+
+.bsCalContact {
+	padding:1em; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 140%;
+	font-weight:bold;
+	border: 1px dotted #003066;
+	width:300px;
+}
+
+.bsCalDemo {
+	padding:1em; 
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px dotted #003066;
+}
+
+.bsCalDemoText {
+	padding:1em; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.bsCalCalIcon {
+	margin-top:0px;
+	cursor:pointer;
+	vertical-align:bottom;
+	padding-right:0px;
+	padding-left:2px;
+	border:solid 2px;
+}
+
+.bsCalExample {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003066;
+	background-color: white;
+}
+.bsCalExample:hover {
+	font-weight: bold;
+	color: #003066;
+	background-color: white;
+}
+
+
+.bsCalSpecialDay { 
+	background-color: #cccccc;
+}
+
+.bsCalDayInfo { 
+	background-color: yellow;
+	font-size: 80%;
+}
+
+.bsCalInfo { 
+	padding-left: 2ex;
+	padding-right: 2ex;
+	padding-top: 1.0ex;
+	padding-bottom: 1.0ex;
+	margin-top: 1.0ex;
+	margin-bottom: 1.0ex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	background-color: #DAE5EF;
+	border: 1px solid ;
+}
+
+/*
+ * Used in BSoft generated forms
+ */
+.errormsg { 
+	text-align:left;
+	vertical-align:top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: red;
+	line-height: 16px;
+}
+
+.bsCalBuyDesc { 
+	text-align:left;
+	vertical-align:top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 16px;
+}
+
+.bsCalBuyDescData { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 16px;
+	font-weight:bold;
+}
+.bsCalHelp { 
+	font-size: 160%;
+	margin-left:0.5em;
+	margin-right:1em;
+	font-weight:bold;
+	color: #003066;
+}
+
+pre.bsCode {
+	padding-right: 2ex;
+	margin-right: 2ex;
+  background-color: #EFEBEF;
+	border: 1px solid #FFFFFF;
+	width: 80%;
+}

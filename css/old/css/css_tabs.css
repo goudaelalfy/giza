@@ -1,0 +1,93 @@
+.container
+{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	
+}
+
+ul.tabs
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	list-style:none;
+	height:42px;
+	border: 0px;
+	width:100%;
+	background:#f3f3f2;
+}
+
+ul.tabs li
+{
+	float:left;
+	margin:0px;
+	padding:0px;
+	height:42px;
+	line-height:42px;
+	border:0px solid #999;
+	background:#f3f3f2;
+	overflow:hidden;
+	position:relative;
+	color:#696259;
+}
+
+ul.tabs li a
+{
+	text-decoration:none;
+	color:#696259;
+	display:block;
+	font-size:1.2em;
+	padding:0 10px;
+	border:0px solid #fff;
+	outline:none;
+	margin:0px;
+}
+
+ul.tabs li a:hover
+{
+	background:#BBB6AF;
+	color:#000000;
+}
+
+html ul.tabs li.active,html ul.tabs li.active a,html ul.tabs li.active a:hover
+{
+	background:#99948e;
+	color:#ffffff;
+	border-bottom:0px solid #fff;
+	margin:0px;
+}
+
+.tab_container
+{
+	border:0px;
+	clear:both;
+	float:left;
+	width:100%;
+	background:#e2e0de;
+	
+}
+
+.tab_content
+{
+	padding:20px;
+}
+
+.left_tab_td1
+{
+	background:#e2e0de url('../images/course_tab_tl1.jpg') top right no-repeat;
+	padding:0px;
+	margin:0px;
+}
+
+.left_tab_td2
+{
+	background:#e2e0de url('../images/course_tab_tl2.jpg') top right no-repeat;
+	padding:0px;
+	margin:0px;
+}
+
+.right_tab_td1
+{
+	background:#e2e0de url('../images/course_tab_tr1.jpg') top left no-repeat;padding:0px; margin:0px;
+}

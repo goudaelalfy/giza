@@ -1,0 +1,47 @@
+html, body, div, span, img, applet, embed, canvas, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, samp, small, strike, strong, sub, sup, tt, var, b, u, i, s, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td{
+	/*By Gouda*/
+	/*
+	margin:0;
+	padding:0;
+	*/
+	border:0;
+	outline:0;
+	font-size:100%;
+	background:transparent;
+	/*By Gouda*/
+	/*
+	vertical-align: baseline;
+	*/
+}
+html, body{
+	height:100%;
+}
+html{
+	overflow: auto;
+}
+*{
+	outline:none;
+}
+h1, h2, h3, h4, h5, h6{
+	clear: both;
+}
+table{
+	
+	/*By Gouda, to solve problem of clients and partners grid*/
+	/*
+	border-collapse:collapse;
+	*/
+	border-spacing:0;
+}
+ol, ul{
+	/*By Gouda*/
+	/*
+	list-style:none;
+	*/
+}
+img{
+	border: none;
+}
+input, textarea{
+	margin:0;
+}

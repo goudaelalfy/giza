@@ -1,0 +1,138 @@
+/* Ticker Styling */
+.ticker-wrapper.has-js {
+	padding: 0 20px;
+	width: 100%;
+	height: 38px;
+	display: block;
+	font-size: 15px;
+}
+.ticker {
+	width: 900px;
+	height: 38px;
+	line-height: 38px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.ticker-title {
+	color: #00355f;
+}
+.ticker-content {
+	margin: 0;
+	height: 38px;
+	line-height: 38px;
+	position: absolute;
+	color: #1F527B;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.ticker-content:focus {
+
+}
+.ticker-content a {
+	text-decoration: none;
+	color: #545454;
+}
+.ticker-content span.date{
+	padding: 0 30px 0 0;
+	color: #545454;
+}
+.ticker-content a:hover {
+	color: #0D3059;
+}
+.ticker-swipe {
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 800px;
+	height: 38px;
+	line-height: 38px;
+	background: transparent url("../../../images/news_bar_bg.png") repeat-x scroll left top;
+}
+.ticker-swipe span {
+	margin-left: 1px;
+	border-bottom: 1px solid #1F527B;
+	height: 38px;
+	line-height: 38px;
+	width: 7px;
+	display: block;
+}
+.ticker-controls {
+	padding: 12px 0 0 0;
+	list-style-type: none;
+	float: left;
+}
+.ticker-controls li {
+	padding: 0;
+	margin-left: 5px;
+	float: left;
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+.ticker-controls li.jnt-play-pause {
+	background-image: url('../images/controls.png');
+	background-position: 32px 16px;
+}
+.ticker-controls li.jnt-play-pause.over {
+	background-position: 32px 32px;
+}
+.ticker-controls li.jnt-play-pause.down {
+	background-position: 32px 0;
+}
+.ticker-controls li.jnt-play-pause.paused {
+	background-image: url('../images/controls.png');
+	background-position: 48px 16px;
+}
+.ticker-controls li.jnt-play-pause.paused.over {
+	background-position: 48px 32px;
+}
+.ticker-controls li.jnt-play-pause.paused.down {
+	background-position: 48px 0;
+}
+.ticker-controls li.jnt-prev {
+	background-image: url('../images/controls.png');
+	background-position: 0 16px;
+}
+.ticker-controls li.jnt-prev.over {
+	background-position: 0 32px;
+}
+.ticker-controls li.jnt-prev.down {
+	background-position: 0 0;
+}
+.ticker-controls li.jnt-next {
+	background-image: url('../images/controls.png');
+	background-position: 16px 16px;	
+}
+.ticker-controls li.jnt-next.over {
+	background-position: 16px 32px;	
+}
+.ticker-controls li.jnt-next.down {	
+	background-position: 16px 0;
+}
+.js-hidden {
+	display: none;
+}
+.no-js-news {
+	padding: 10px 0 0 45px;
+	color: #F8F0DB;
+}
+.left .ticker-swipe {
+	/*left: 80px;*/
+}
+.left .ticker-controls, .left .ticker-content, .left .ticker-title, .left .ticker {
+    float: left;
+}
+.left .ticker-controls {
+    padding-left: 6px;
+}
+.right .ticker-swipe {
+	/*right: 80px;*/
+}
+.right .ticker-controls, .right .ticker-content, .right .ticker-title, .right .ticker {
+    float: right;
+}
+.right .ticker-controls {
+    padding-right: 6px;
+}

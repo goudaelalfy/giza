@@ -1,0 +1,123 @@
+/**
+ * Multi Level Drop Down Menu 3.0 - CSS Temp
+ * April 17, 2010
+ * Corey Hart @ http://www.codenothing.com
+ */ 
+
+#multi-ddm {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#multi-ddm li {
+	float: left;
+	margin: 0px;
+}
+
+#multi-ddm li li {
+	float: none;
+}
+
+#multi-ddm li a {		/* main item style */
+	display: block;
+	text-align:center;
+	padding:0px;
+	padding-bottom: 0px;
+	border: 0px solid #c5c5c5;
+	color: #929292;
+	font-size:17px;
+	text-decoration:none;
+	text-transform:capitalize;
+	margin-right:0px;
+	height:47px;
+}
+
+#multi-ddm li a.parent-hover {		/* main item hover */
+	border-left: 0px solid #545454;
+	color: #ffffff;
+	font-size:17px;
+	text-decoration:none;
+	text-transform:capitalize;
+	background:url('../../images/menu_mainitem_bg.png') bottom center repeat-x;
+	
+}
+
+#multi-ddm li ul {	/* first sub menu style */
+	padding:0px;
+	padding-top:0px;
+	display: none;
+	list-style: none;
+	position: absolute;
+	margin: 0px;
+	margin-left:0px;
+	z-index: 90;
+}
+
+#multi-ddm li ul a {			
+	width: 180px;
+	padding: 0px;
+	border: 0px solid #545454;
+	border-top: none;
+	font-size: 15pt;
+	background-color: #00355f;
+	text-align: left;
+	
+}
+
+
+#multi-ddm li ul li a	/* first sub menu item style */
+{
+	height:23px;
+	font-size:12px;
+	font-family:HelveticaNeue;
+	border:0px;
+	background:url('../../images/giza_systems_menu1.png') top center no-repeat;
+	color:#ffffff;
+	padding:0px;
+	padding-bottom:0px;
+	padding-top:5px;
+	text-transform:capitalize;
+}
+
+#multi-ddm li ul li a:hover	/* first sub menu item style */
+{
+	color:#ffffff;
+	background-color::#00355f;
+}
+
+#multi-ddm li ul li a.first {
+	color:#00a4e4;
+}
+
+#multi-ddm li ul li a.child-hover1 {
+	background:url('../../images/giza_systems_menu1_.png') top center no-repeat;
+	color:#ffffff;
+	padding-top:5px;
+	height:29px;
+}
+
+#multi-ddm li ul li a.child-hover2 {
+	background: #0000ff;
+	color: white;
+}
+
+#multi-ddm li ul li a.child-hover3 {
+	background-color: purple;
+	color: white;
+}
+
+#multi-ddm li ul li a.child-hover4 {
+	background-color: blue;
+	color: white;
+}
+
+#multi-ddm li ul li ul {		/* sub sub menu style */
+	margin: -34px 0 0 150px;
+	position: absolute;
+}
+
+#multi-ddm span {
+	float: right;
+	padding-right:10px;
+}
